@@ -9,8 +9,8 @@ import java.util.ArrayList;
 public class ETLPipeline {
 
 	public static void main(String[] args) {
-		String inputFile = "data/products.csv";
-        String outputFile = "data/transformed_products.csv";
+		String inputFile = "products.csv";
+        String outputFile = "transformed_products.csv";
         
         try {
             List<String> allLines = Files.readAllLines(Paths.get(inputFile));
